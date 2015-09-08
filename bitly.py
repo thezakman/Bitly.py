@@ -62,7 +62,7 @@ API_KEY = 'SUA_API_KEY'
 # Função para mostrar o numero de vezes que o link foi clickado.
 def clicks(ctrlv):
 	query_params = {'access_token': API_KEY,
-                'link': 'http://bitly.com/RYYpZT'} 
+                'link': ctrlv} 
 
 	URL = 'https://api-ssl.bitly.com/v3/link/clicks'
 	response = requests.get(URL, params=query_params, verify=False)
@@ -90,7 +90,7 @@ def encurtar(ctrlv):
 
 	# (╯°□°)╯ Preciso melhorar esse regex!
 	regexes = [
-    	"http[s]?://",
+    	"^(?:http|ftp)s?://",
     	"(www\.)?[a-z0-9\.:].*?(?=\s)"
     	]
 
