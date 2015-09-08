@@ -105,7 +105,7 @@ def encurtar(ctrlv):
 			exit(1)
 
 	# Condição para verificar se o cliboard é um UR valido ou não.
-	if re.match(HTTP_regex, ctrlv):
+	elif re.match(HTTP_regex, ctrlv):
 		print "[ Encurtando o URL ... ]"
 
 		parametros = {'access_token': API_KEY,'longUrl': ctrlv} 
