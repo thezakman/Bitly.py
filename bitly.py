@@ -56,7 +56,7 @@ ctrlv = clipboard.paste()
 
 # Coloque aqui a sua oauth-key:
 # https://bitly.com/a/oauth_apps
-API_KEY = '3efaf0a42a5c4a2274e193cee7f1efb84197610b'
+API_KEY = 'SUA_API_KEY'
 
 
 # Função para mostrar o numero de vezes que o link foi clickado.
