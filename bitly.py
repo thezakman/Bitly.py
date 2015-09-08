@@ -47,7 +47,7 @@ import json
 import re
 import clipboard
 
-# Remove porra do 'Unverified HTTPS request is being made.'
+# Remove a porra do 'Unverified HTTPS request is being made.'
 requests.packages.urllib3.disable_warnings() 
 
 # Adiciona seu Clipboard a uma variavel 
