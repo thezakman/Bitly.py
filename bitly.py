@@ -18,7 +18,8 @@ Bitly URL Shortener - Python Script/Module
 #	https://twitter.com/thezakman
 
 __author__ = "TheZakMan"
-
+__version__ = '0.1.4'
+__license__ = 'creative commons'
 
 # [Como usar:]=================
 #  Copie o url que você queira 
@@ -55,7 +56,7 @@ ctrlv = clipboard.paste()
 
 # Coloque aqui a sua oauth-key:
 # https://bitly.com/a/oauth_apps
-API_KEY = 'SUA_API_AQUI'
+API_KEY = '3efaf0a42a5c4a2274e193cee7f1efb84197610b'
 
 
 # Função para mostrar o numero de vezes que o link foi clickado.
